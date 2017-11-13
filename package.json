@@ -1,6 +1,6 @@
 {
   "name": "gulp-rev-collector-concat",
-  "version": "0.0.0-1",
+  "version": "0.0.0-2",
   "description": "Base on gulp-rev-collector, add new feature(concat-asserts-feature) into it. Static asset revision data collector from manifests, generated from different streams, and replace their links in html template.",
   "license": "MIT",
   "repository": {
