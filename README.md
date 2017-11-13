@@ -4,7 +4,6 @@
 [![download](https://img.shields.io/npm/dt/gulp-rev-collector-concat.svg "download")](https://www.npmjs.com/package/gulp-rev-collector-concat)&nbsp;
 [![license](https://img.shields.io/github/license/froguard/gulp-rev-collector-concat.svg)](https://github.com/froguard/gulp-rev-collector-concat/blob/master/LICENSE)
 
-[![download:25419](https://nodei.co/npm/gulp-rev-collector-concat.png?downloads=true)](https://www.npmjs.com/package/gulp-rev-collector-concat)
 # [gulp](https://github.com/wearefractal/gulp)-rev-collector-concat
 
 - Base on [gulp-rev-collector](https://github.com/shonny-ua/gulp-rev-collector), And has the same function as [gulp-rev-collector](https://www.npmjs.com/package/gulp-rev-collector).
