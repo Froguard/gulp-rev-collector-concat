@@ -3,7 +3,7 @@
 [![devDependencies](https://david-dm.org/Froguard/gulp-rev-collector-concat/dev-status.svg)](https://david-dm.org/Froguard/gulp-rev-collector-concat#info=devDependencies&view=table)
 [![NPM version](https://badge.fury.io/js/gulp-rev-collector-concat.svg)](http://badge.fury.io/js/gulp-rev-collector-concat)
 
-# [gulp](https://github.com/wearefractal/gulp)-rev-collector
+# [gulp](https://github.com/wearefractal/gulp)-rev-collector-concat
 
 # gulp-rev-collector-concat
 - Base on [gulp-rev-collector](https://github.com/shonny-ua/gulp-rev-collector), And has the same function as [gulp-rev-collector](https://www.npmjs.com/package/gulp-rev-collector).
