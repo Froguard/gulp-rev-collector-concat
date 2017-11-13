@@ -1,0 +1,10 @@
+example/img/
+# test/
+.idea/
+node_modules/
+*.log
+coverage/
+webpack.config.js
+develop.md
+.travis.yml
+test.js
