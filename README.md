@@ -1,8 +1,10 @@
-[![Build Status](https://travis-ci.org/Froguard/gulp-rev-collector-concat.svg)](https://travis-ci.org/Froguard/gulp-rev-collector-concat)
-[![Dependencies](https://david-dm.org/Froguard/gulp-rev-collector-concat.svg)](https://david-dm.org/Froguard/gulp-rev-collector-concat)
-[![devDependencies](https://david-dm.org/Froguard/gulp-rev-collector-concat/dev-status.svg)](https://david-dm.org/Froguard/gulp-rev-collector-concat#info=devDependencies&view=table)
-[![NPM version](https://badge.fury.io/js/gulp-rev-collector-concat.svg)](http://badge.fury.io/js/gulp-rev-collector-concat)
+[![version](https://img.shields.io/npm/v/gulp-rev-collector-concat.svg "version")](https://www.npmjs.com/package/gulp-rev-collector-concat)&nbsp;
+[![Build Status](https://img.shields.io/travis/Froguard/gulp-rev-collector-concat.svg)](https://travis-ci.org/Froguard/gulp-rev-collector-concat)&nbsp;
+[![GitHub issues](https://img.shields.io/github/issues/Froguard/gulp-rev-collector-concat.svg)](https://github.com/Froguard/gulp-rev-collector-concat/issues?q=is%3Aopen+is%3Aissue)&nbsp;
+[![download](https://img.shields.io/npm/dt/gulp-rev-collector-concat.svg "download")](https://www.npmjs.com/package/gulp-rev-collector-concat)&nbsp;
+[![license](https://img.shields.io/github/license/froguard/gulp-rev-collector-concat.svg)](https://github.com/froguard/gulp-rev-collector-concat/blob/master/LICENSE)
 
+[![download:25419](https://nodei.co/npm/gulp-rev-collector-concat.png?downloads=true)](https://www.npmjs.com/package/gulp-rev-collector-concat)
 # [gulp](https://github.com/wearefractal/gulp)-rev-collector-concat
 
 - Base on [gulp-rev-collector](https://github.com/shonny-ua/gulp-rev-collector), And has the same function as [gulp-rev-collector](https://www.npmjs.com/package/gulp-rev-collector).
