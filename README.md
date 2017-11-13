@@ -7,7 +7,7 @@
 # [gulp-rev-collector](https://www.npmjs.com/package/gulp-rev-collector)-concat
 
 - Base on [gulp-rev-collector](https://github.com/shonny-ua/gulp-rev-collector), And has the same function as [gulp-rev-collector](https://www.npmjs.com/package/gulp-rev-collector).
-- Has an more than [gulp-rev-collector](https://www.npmjs.com/package/gulp-rev-collector) of an new feature [concat-asserts-feature](https://github.com/shonny-ua/gulp-rev-collector/issues/44) .
+- More than [gulp-rev-collector](https://www.npmjs.com/package/gulp-rev-collector) of an new feature [concat-asserts-feature](https://github.com/shonny-ua/gulp-rev-collector/issues/44) .
 - If the [PR](https://github.com/shonny-ua/gulp-rev-collector/pull/43) is merged in the future, The maintenance of this project will be abandoned!
 
 [![NPM](https://nodei.co/npm/gulp-rev-collector-concat.png?downloads=true&stars=true)](https://nodei.co/npm/gulp-rev-collector-concat/)
