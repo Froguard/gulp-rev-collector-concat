@@ -13,7 +13,8 @@ var defaults = {
         '.scss': '.css',
         '.less': '.css',
         '.jsx': '.js'
-    }
+    },
+    ignoreKeys: []
 };
 
 function _getManifestData(file, opts) {
@@ -32,7 +33,11 @@ function _getManifestData(file, opts) {
             return;
         }
         if (_.isObject(json)) {
+            var needIgnoreKeys = opts.ignoreKeys && opts.ignoreKeys.length;
             Object.keys(json).forEach(function (key) {
+                if(needIgnoreKeys && opts.ignoreKeys.indexOf(key)!=-1){
+                    return;
+                }
                 var v = json[key] || '';
                 if (!_.isString(v) || !v) {
                     return;
