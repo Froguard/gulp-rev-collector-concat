@@ -20,6 +20,7 @@ function _getManifestData(file, opts) {
     var data;
     var ext = path.extname(file.path);
     if (ext === '.json') {
+        data = {};
         var json = {};
         try {
             var content = file.contents.toString('utf8');
@@ -31,27 +32,22 @@ function _getManifestData(file, opts) {
             return;
         }
         if (_.isObject(json)) {
-            var isRev = 1;
             Object.keys(json).forEach(function (key) {
-                if (!_.isString(json[key])) {
-                    isRev = 0;
+                var v = json[key] || '';
+                if (!_.isString(v) || !v) {
                     return;
                 }
-                var cleanReplacement =  path.basename(json[key]).replace(new RegExp( opts.revSuffix ), '' );
+                var cleanReplacement =  path.basename(v).replace(new RegExp( opts.revSuffix ), '' );
                 if (!~[
                         path.basename(key),
                         _mapExtnames(path.basename(key), opts)
                     ].indexOf(cleanReplacement)
-                ) {
-                    isRev = 0;
+                ){
+                    return;
                 }
+                data[key] = v;
             });
-
-            if (isRev) {
-                data = json;
-            }
         }
-
     }
     return data;
 }
