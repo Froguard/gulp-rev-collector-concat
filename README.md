@@ -8,6 +8,7 @@
 
 - Base on [gulp-rev-collector](https://github.com/shonny-ua/gulp-rev-collector), And has the same function as [gulp-rev-collector](https://www.npmjs.com/package/gulp-rev-collector).
 - More than [gulp-rev-collector](https://www.npmjs.com/package/gulp-rev-collector) of an new feature [concat-asserts-feature](https://github.com/shonny-ua/gulp-rev-collector/issues/44) .
+- Another new feature: set `ignoreKeys` to skip special keys in mainfest object;
 - If the [PR](https://github.com/shonny-ua/gulp-rev-collector/pull/43) is merged in the future, The maintenance of this project will be abandoned!
 
 [![NPM](https://nodei.co/npm/gulp-rev-collector-concat.png?downloads=true&stars=true)](https://nodei.co/npm/gulp-rev-collector-concat/)
