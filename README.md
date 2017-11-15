@@ -71,6 +71,40 @@ gulp.task('rev', function () {
 
 ### Options
 
+#### concatPrefixes
+
+Type : `Object`
+
+If you use some concat static path(for optimizing resource request reduction).
+
+You may need convert ```/js/??/com/a.js,/com/b.js,/com/c.js``` to ```/js/??/com/a-[revcode].js,/com/b-[revcode].js,/com/c-[revcode].js```
+
+Such as:
+```
+{
+    "/js/??": "/js",
+    "/css/??": "/css"
+}
+```
+
+see concat-static-res-request information: [http-nginx-concat](https://github.com/alibaba/nginx-http-concat)
+
+> The concat static asserts should be wrapped in quotes ('|").  "/js/??/com/a.js,/com/b.js,/com/c.js"
+
+#### ignoreKeys
+
+Type: `Array`
+
+Set ignoreKeys to skip some special keys in mainfest during doing rev.
+
+Sucn as: 
+```
+[
+	'some_path_u_dont_want_rev.js',
+	'some_path_u_dont_want_rev.css'
+]
+```
+
 #### collectedManifest
 
 Type : `String`
@@ -124,25 +158,6 @@ Default value is:
 }
 ```
 
-#### concatPrefixes
-
-Type : `Object`
-
-If you use some concat static path(for optimizing resource request reduction).
-
-You may need convert ```/js/??/com/a.js,/com/b.js,/com/c.js``` to ```/js/??/com/a-[revcode].js,/com/b-[revcode].js,/com/c-[revcode].js```
-
-Such as:
-```
-{
-    "/js/??": "/js",
-    "/css/??": "/css"
-}
-```
-
-see concat-static-res-request information: [http-nginx-concat](https://github.com/alibaba/nginx-http-concat)
-
-> The concat static asserts should be wrapped in quotes ('|").  "/js/??/com/a.js,/com/b.js,/com/c.js"
 
 ### Works with gulp-rev-collector-concat
 
